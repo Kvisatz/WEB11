@@ -17,16 +17,18 @@
 	
 }
 .header ul li{
-	padding: 10px 30px;
+	
 	border: 1px solid #000;
 	position: relative;
 }
-.header ul li a{
+.header ul > li > a{
 	display: block;
 	text-decoration: none;
 	color: #fff;
 	width: 100%;
 	height: 100%;
+	padding: 10px 30px;
+	box-sizing: border-box;
 }
 .header ul li ul{
 	flex-direction: column;
