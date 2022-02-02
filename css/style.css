@@ -7,7 +7,7 @@
 .header{
 	grid-row: 1;
 	grid-column: 1 / span 4;
-	background-color: #f00;
+	background-image: url(../images/279221010.jpg);
 	column-gap: 5px;
 }
 .header ul{
